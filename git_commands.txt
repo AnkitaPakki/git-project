@@ -1,0 +1,21 @@
+All Git commands Used in This Assignment:
+1. cd Desktop - Changes directory to Desktop folder
+2. mkdir git-project  - Creates a new folder named git-project
+3. cd git-project  - Moves into the git-project folder
+4. cat > filename << 'EOF' - Creates a file with multi-line content
+5. ls  - Lists all files in current directory
+6. git init -  Initializes a new Git repository in current folder
+7. git status  - Shows current state of working directory and staging area
+8. git add <file> or git add .  - Stages files for the next commit
+9. git commit -m "message"  - Records staged changes with a descriptive message
+10. git branch <name>  - Creates a new branch with specified name
+11. git checkout <branch>  - Switches to the specified branch
+12. git merge <branch> -m "message"  - Merges specified branch into current branch
+13. git log --oneline --graph --all  - Displays commit history as a compact graph showing all branches
+14. echo "pattern" > .gitignore  - Creates .gitignore file with ignore patterns
+15. echo "pattern" >> .gitignore - Appends additional pattern to .gitignore
+16. git reset --soft HEAD~1  - Undoes the last commit but keeps changes staged
+17. git remote add origin <url>  - Connects local repository to remote GitHub repository
+18. git branch -M master  - Renames current branch to master
+19. git push -u origin main  - Pushes local commits to GitHub and sets upstream tracking
+20. git log --oneline  - Shows commit history in compact format
